@@ -1,0 +1,86 @@
+* {
+	width: 90%;
+    flex-direction: column;
+    background: #304579;
+    color: #fff;
+    padding: 8px;
+    position: center;
+    margin-left: 16px;
+}
+
+h1{
+	color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.container {
+    padding: 6px 80px;
+    box-shadow: 0 0 18px 0 rgba(255, 255, 255, 0.3);
+     border-radius: 20px;
+}
+
+.container .was-validated{
+	  width: 35%;
+    display: flex;
+    justify-content: center;
+    padding: -2px;
+    font-size: 2px;
+}
+.container .col-md-12{
+	 display: grid;
+font-size: 20px;
+}
+.container .mb-3{
+	font-size: 20px;
+}
+.container .was-validated .mb-3{
+    grid-column: 1/3;
+    font-size: 20px;
+        padding: 8px;
+}
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  padding: 9px;
+  width: 160px;
+  text-align: center; /* Centrar el texto horizontalmente */
+  display: flex; /* Utilizar flexbox para centrar vertical y horizontalmente */
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+    border-radius: 18px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.invalid-feedback{
+	  font-size: 13px;
+}
+
+.mb-3 .form-control{
+  width: 37.5%;
+  padding: 9px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  }
+  
+img {
+  /* Nuevos estilos para la imagen */
+  position: absolute; /* Posición absoluta para la imagen */
+  margin-left: 600px;
+   width: 40%; 
+  height: 60%; 
+  padding:-50px;
+}
+

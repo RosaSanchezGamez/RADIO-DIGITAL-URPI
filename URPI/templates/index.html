@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Radio Digital URPI</h1>
+    <br>
+    <form class="was-validated" action="/" method="POST" enctype="multipart/form-data">
+      <img src="IMG/logo.png">
+      <div class="col-md-12">
+        <label for="frmNames" class="form-label">Nombre de la música:</label>
+        <input type="text" class="form-control is-valid" id="frmNames" name="frmNames" required>
+        <div class="invalid-feedback">
+          Ingrese un nombre para el audio mp3.
+        </div>
+      </div>
+      <br>
+      <div class="col-md-12">
+        <label for="frmArtist" class="form-label">Artista:</label>
+        <input type="text" class="form-control is-valid" id="frmArtist" name="frmArtist" required>
+        <div class="invalid-feedback">
+          Ingrese el nombre del artista.
+        </div>
+      </div>
+      <br>
+      <div class="col-md-12">
+        <label for="frmGender" class="form-label">Género:</label>
+        <input type="text" class="form-control is-valid" id="frmGender" name="frmGender" required>
+        <div class="invalid-feedback">
+          Ingrese el género de la música.
+        </div>
+      </div>
+      <br>
+      <div class="mb-3">
+        <input id="frmAudio" type="file" class="form-control" aria-label="file example" name="frmAudio" accept="audio/mp3" required>
+        <div class="invalid-feedback">Solo se permite archivos .mp3</div>
+      </div>
+      <div class="mb-3">
+        <button class="btn btn-primary" type="submit">Subir audio</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
